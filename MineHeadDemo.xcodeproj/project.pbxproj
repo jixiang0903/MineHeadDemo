@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBDC75F41D82903800632BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDC75F31D82903800632BBC /* main.m */; };
+		CBDC75F71D82903800632BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDC75F61D82903800632BBC /* AppDelegate.m */; };
+		CBDC75FD1D82903800632BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDC75FB1D82903800632BBC /* Main.storyboard */; };
+		CBDC75FF1D82903800632BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDC75FE1D82903800632BBC /* Assets.xcassets */; };
+		CBDC76021D82903800632BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76001D82903800632BBC /* LaunchScreen.storyboard */; };
+		CBDC76101D82928100632BBC /* HeadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDC760B1D82928100632BBC /* HeadImageView.m */; };
+		CBDC76111D82928100632BBC /* HeadLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDC760D1D82928100632BBC /* HeadLineView.m */; };
+		CBDC76121D82928100632BBC /* NavHeadTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDC760F1D82928100632BBC /* NavHeadTitleView.m */; };
+		CBDC76151D8294BB00632BBC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDC76141D8294BB00632BBC /* RootViewController.m */; };
+		CBDC76171D829AA400632BBC /* bg-mine.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76161D829AA400632BBC /* bg-mine.png */; };
+		CBDC76191D829AE600632BBC /* Mail-click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76181D829AE600632BBC /* Mail-click@2x.png */; };
+		CBDC761B1D829B4A00632BBC /* Mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDC761A1D829B4A00632BBC /* Mail@2x.png */; };
+		CBDC761D1D829B6D00632BBC /* Setting-click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDC761C1D829B6D00632BBC /* Setting-click@2x.png */; };
+		CBDC761F1D829B7600632BBC /* Setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDC761E1D829B7600632BBC /* Setting@2x.png */; };
+		CBDC76211D829B8D00632BBC /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76201D829B8D00632BBC /* 23.jpg */; };
+		CBDC76231D829E4300632BBC /* pencil-light-shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76221D829E4300632BBC /* pencil-light-shadow@2x.png */; };
+		CBDC76251D82AD8E00632BBC /* zrx7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76241D82AD8E00632BBC /* zrx7.jpg */; };
+		CBDC76271D82ADC700632BBC /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76261D82ADC700632BBC /* 5.jpg */; };
+		CBDC76291D82AE0A00632BBC /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBDC76281D82AE0A00632BBC /* 29.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBDC75EF1D82903800632BBC /* MineHeadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineHeadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDC75F31D82903800632BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBDC75F51D82903800632BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBDC75F61D82903800632BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBDC75FC1D82903800632BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBDC75FE1D82903800632BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBDC76011D82903800632BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBDC76031D82903800632BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDC760A1D82928100632BBC /* HeadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadImageView.h; sourceTree = "<group>"; };
+		CBDC760B1D82928100632BBC /* HeadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadImageView.m; sourceTree = "<group>"; };
+		CBDC760C1D82928100632BBC /* HeadLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadLineView.h; sourceTree = "<group>"; };
+		CBDC760D1D82928100632BBC /* HeadLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadLineView.m; sourceTree = "<group>"; };
+		CBDC760E1D82928100632BBC /* NavHeadTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavHeadTitleView.h; sourceTree = "<group>"; };
+		CBDC760F1D82928100632BBC /* NavHeadTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavHeadTitleView.m; sourceTree = "<group>"; };
+		CBDC76131D8294BB00632BBC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CBDC76141D8294BB00632BBC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CBDC76161D829AA400632BBC /* bg-mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-mine.png"; path = "../bg-mine.png"; sourceTree = "<group>"; };
+		CBDC76181D829AE600632BBC /* Mail-click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mail-click@2x.png"; path = "../Mail-click@2x.png"; sourceTree = "<group>"; };
+		CBDC761A1D829B4A00632BBC /* Mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mail@2x.png"; path = "../Mail@2x.png"; sourceTree = "<group>"; };
+		CBDC761C1D829B6D00632BBC /* Setting-click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Setting-click@2x.png"; path = "../Setting-click@2x.png"; sourceTree = "<group>"; };
+		CBDC761E1D829B7600632BBC /* Setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Setting@2x.png"; path = "../Setting@2x.png"; sourceTree = "<group>"; };
+		CBDC76201D829B8D00632BBC /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 23.jpg; path = ../23.jpg; sourceTree = "<group>"; };
+		CBDC76221D829E4300632BBC /* pencil-light-shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pencil-light-shadow@2x.png"; path = "../pencil-light-shadow@2x.png"; sourceTree = "<group>"; };
+		CBDC76241D82AD8E00632BBC /* zrx7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zrx7.jpg; path = ../zrx7.jpg; sourceTree = "<group>"; };
+		CBDC76261D82ADC700632BBC /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../5.jpg; sourceTree = "<group>"; };
+		CBDC76281D82AE0A00632BBC /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 29.jpg; path = ../29.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBDC75EC1D82903800632BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBDC75E61D82903800632BBC = {
+			isa = PBXGroup;
+			children = (
+				CBDC75F11D82903800632BBC /* MineHeadDemo */,
+				CBDC75F01D82903800632BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBDC75F01D82903800632BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC75EF1D82903800632BBC /* MineHeadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBDC75F11D82903800632BBC /* MineHeadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC75F51D82903800632BBC /* AppDelegate.h */,
+				CBDC75F61D82903800632BBC /* AppDelegate.m */,
+				CBDC76131D8294BB00632BBC /* RootViewController.h */,
+				CBDC76141D8294BB00632BBC /* RootViewController.m */,
+				CBDC762A1D82BA4600632BBC /* image */,
+				CBDC76091D82928100632BBC /* Views */,
+				CBDC75FB1D82903800632BBC /* Main.storyboard */,
+				CBDC75FE1D82903800632BBC /* Assets.xcassets */,
+				CBDC76001D82903800632BBC /* LaunchScreen.storyboard */,
+				CBDC76031D82903800632BBC /* Info.plist */,
+				CBDC75F21D82903800632BBC /* Supporting Files */,
+			);
+			path = MineHeadDemo;
+			sourceTree = "<group>";
+		};
+		CBDC75F21D82903800632BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC75F31D82903800632BBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBDC76091D82928100632BBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC760A1D82928100632BBC /* HeadImageView.h */,
+				CBDC760B1D82928100632BBC /* HeadImageView.m */,
+				CBDC760C1D82928100632BBC /* HeadLineView.h */,
+				CBDC760D1D82928100632BBC /* HeadLineView.m */,
+				CBDC760E1D82928100632BBC /* NavHeadTitleView.h */,
+				CBDC760F1D82928100632BBC /* NavHeadTitleView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBDC762A1D82BA4600632BBC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC76221D829E4300632BBC /* pencil-light-shadow@2x.png */,
+				CBDC76241D82AD8E00632BBC /* zrx7.jpg */,
+				CBDC76281D82AE0A00632BBC /* 29.jpg */,
+				CBDC76201D829B8D00632BBC /* 23.jpg */,
+				CBDC76261D82ADC700632BBC /* 5.jpg */,
+				CBDC761E1D829B7600632BBC /* Setting@2x.png */,
+				CBDC761C1D829B6D00632BBC /* Setting-click@2x.png */,
+				CBDC761A1D829B4A00632BBC /* Mail@2x.png */,
+				CBDC76161D829AA400632BBC /* bg-mine.png */,
+				CBDC76181D829AE600632BBC /* Mail-click@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBDC75EE1D82903800632BBC /* MineHeadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDC76061D82903800632BBC /* Build configuration list for PBXNativeTarget "MineHeadDemo" */;
+			buildPhases = (
+				CBDC75EB1D82903800632BBC /* Sources */,
+				CBDC75EC1D82903800632BBC /* Frameworks */,
+				CBDC75ED1D82903800632BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineHeadDemo;
+			productName = MineHeadDemo;
+			productReference = CBDC75EF1D82903800632BBC /* MineHeadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBDC75E71D82903800632BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jixiang;
+				TargetAttributes = {
+					CBDC75EE1D82903800632BBC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CBDC75EA1D82903800632BBC /* Build configuration list for PBXProject "MineHeadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBDC75E61D82903800632BBC;
+			productRefGroup = CBDC75F01D82903800632BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBDC75EE1D82903800632BBC /* MineHeadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBDC75ED1D82903800632BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDC76291D82AE0A00632BBC /* 29.jpg in Resources */,
+				CBDC761D1D829B6D00632BBC /* Setting-click@2x.png in Resources */,
+				CBDC761F1D829B7600632BBC /* Setting@2x.png in Resources */,
+				CBDC76021D82903800632BBC /* LaunchScreen.storyboard in Resources */,
+				CBDC76191D829AE600632BBC /* Mail-click@2x.png in Resources */,
+				CBDC76231D829E4300632BBC /* pencil-light-shadow@2x.png in Resources */,
+				CBDC76171D829AA400632BBC /* bg-mine.png in Resources */,
+				CBDC76251D82AD8E00632BBC /* zrx7.jpg in Resources */,
+				CBDC76211D829B8D00632BBC /* 23.jpg in Resources */,
+				CBDC75FF1D82903800632BBC /* Assets.xcassets in Resources */,
+				CBDC76271D82ADC700632BBC /* 5.jpg in Resources */,
+				CBDC75FD1D82903800632BBC /* Main.storyboard in Resources */,
+				CBDC761B1D829B4A00632BBC /* Mail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBDC75EB1D82903800632BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDC76151D8294BB00632BBC /* RootViewController.m in Sources */,
+				CBDC76121D82928100632BBC /* NavHeadTitleView.m in Sources */,
+				CBDC75F71D82903800632BBC /* AppDelegate.m in Sources */,
+				CBDC76101D82928100632BBC /* HeadImageView.m in Sources */,
+				CBDC76111D82928100632BBC /* HeadLineView.m in Sources */,
+				CBDC75F41D82903800632BBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBDC75FB1D82903800632BBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBDC75FC1D82903800632BBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBDC76001D82903800632BBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBDC76011D82903800632BBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBDC76041D82903800632BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBDC76051D82903800632BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBDC76071D82903800632BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineHeadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jixinagruyi.MineHeadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBDC76081D82903800632BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineHeadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jixinagruyi.MineHeadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBDC75EA1D82903800632BBC /* Build configuration list for PBXProject "MineHeadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDC76041D82903800632BBC /* Debug */,
+				CBDC76051D82903800632BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDC76061D82903800632BBC /* Build configuration list for PBXNativeTarget "MineHeadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDC76071D82903800632BBC /* Debug */,
+				CBDC76081D82903800632BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBDC75E71D82903800632BBC /* Project object */;
+}
